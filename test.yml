@@ -1,0 +1,34 @@
+name: Ishi
+age: 22
+address: 'udhna: 22'
+active: true
+key:
+    key: value
+    key2: 33
+    key3:
+        key: value
+        key2: value
+array:
+    - item1
+    - item2
+    -
+        key: value
+jsonArray:
+    - item1
+    - item2
+objectArray:
+    -
+        key: value
+        key2: value2
+    -
+        key: value
+        key3: value3
+longText: >
+    Consistent effort, curiosity, and discipline transform small 
+    daily actions into meaningful progress, shaping skills, 
+    confidence, and long-term success for everyone.
+
+# longText: | -----> Incur \n new line
+#     Consistent effort, curiosity, and discipline transform small 
+#     daily actions into meaningful progress, shaping skills, 
+#     confidence, and long-term success for everyone.

@@ -1,0 +1,17 @@
+# name of the entire workflow
+name: Shell Commands
+
+#  define some events that trigger this workFlow
+on: [push]
+
+# workflow contains more than one jobs: defining some jobs
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest  # chooses the operating system on which we want to run workflow
+    steps: # array of object where each object represents a step
+      - name: echo a string # each step perform action
+        run: echo "Hello World" # run some shell command : here action is echoing Hello world
+      - name: multiline script
+        run: | # | is used to rum multiple commands in github actions
+          node -v
+          npm -v
