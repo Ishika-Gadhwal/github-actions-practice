@@ -15,3 +15,8 @@ jobs:
         run: | # | is used to rum multiple commands in github actions
           node -v
           npm -v
+      - name: Python Command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python # it tell the github actions to run this step o python and not on shell's bash
